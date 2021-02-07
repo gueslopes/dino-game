@@ -22,11 +22,19 @@ body {
 .game-over {
     text-align: center;
     color: #666666;
-    margin-top: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-
+.alinhamento {
+    display: flex;
+    justify-content: center;
+    color: #666666;
+    margin-top: 300px ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+}
 
 @keyframes slideright {
     from {
